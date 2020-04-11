@@ -11,6 +11,7 @@ VVVV.Network.sACN is a pure VL implementation of the ANSI E1.31 "Streaming ACN" 
 Limitations:
 
 * Only sendig is supported
+* Only multicasting
 * Syncronization not supported yet
 
 Usage
@@ -21,7 +22,7 @@ Clone or download and extract this repository and add the directory containing t
 License
 --
 
-Distributed under the GNU GPL v3 License. See [LICENSE](LICENSE) for details.
+Distributed under the GNU Lesser General Public License v3.0. See [LICENSE](LICENSE) for details.
 
 Feedback
 --

@@ -6,10 +6,10 @@
     <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.Network" CanvasType="FullCategory">
       <!--
 
-    ************************ sACN (Sender Internal) ************************
+    ************************ sACN (Sender Multicast Internal) ************************
 
 -->
-      <Node Name="sACN (Sender Internal)" Bounds="153,200" Id="TSttkfeJHQSN5gkEF54G9o">
+      <Node Name="sACN (Sender Multicast Internal)" Bounds="153,200" Id="TSttkfeJHQSN5gkEF54G9o">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Patch" />
           <FullNameCategoryReference ID="Primitive" />
@@ -317,7 +317,7 @@
               <Pin Id="NXsjTxmL9RGMzGotM9cpTq" Name="Output" Kind="OutputPin" />
             </Node>
             <Pad Id="O1e5ZrivGqDLoZP26cD9vb" SlotId="MdhTY19PrJwLtRIiEr0JXm" Bounds="101,273" />
-            <Node Bounds="472,874,79,19" Id="FEaWxOpYYTEMc8HZrHrdwp">
+            <Node Bounds="464,874,79,19" Id="FEaWxOpYYTEMc8HZrHrdwp">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ToObservable (Sequence)" />
@@ -326,7 +326,7 @@
               <Pin Id="Tibv9ai2NZOMb1M6vKCU9V" Name="Send" Kind="InputPin" />
               <Pin Id="Nc1d9e6gA4WP4PxdDhvHks" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="574,831,50,26" Id="NPKUnZ8nxmlPHfkoPkFhuf">
+            <Node Bounds="566,831,50,26" Id="NPKUnZ8nxmlPHfkoPkFhuf">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="OR (Spectral)" />
@@ -334,7 +334,7 @@
               <Pin Id="CraUZrK2qoaL3UlcH5mPSi" Name="Input" Kind="StateInputPin" />
               <Pin Id="FTGmZzxPlNVM85P84h2vGN" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="472,918,85,19" Id="KNkFXWG8SxkPH8G3LlaeuU">
+            <Node Bounds="464,918,85,19" Id="KNkFXWG8SxkPH8G3LlaeuU">
               <p:NodeReference LastCategoryFullName="IO.Socket" LastSymbolSource="VL.CoreLib.IO.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="UdpClient (Reactive)" />

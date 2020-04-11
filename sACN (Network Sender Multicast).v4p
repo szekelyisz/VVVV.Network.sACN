@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta39.dtd" >
-   <PATCH nodename="\\Mac\Home\Documents\vvvv\sACN (Network Sender).v4p" systemname="sACN (Network Sender)" filename="\\Mac\Home\Documents\vvvv\sACN (Network Sender).v4p">
+   <PATCH nodename="\\Mac\Home\Documents\vvvv\VVVV.Network.sACN\sACN (Network Sender Multicast).v4p" systemname="sACN (Network Sender Multicast)" filename="\\Mac\Home\Documents\vvvv\VVVV.Network.sACN\sACN (Network Sender Multicast).v4p">
    <BOUNDS type="Window" left="1050" top="2250" width="7290" height="3555">
    </BOUNDS>
    <PACK Name="addonpack" Version="39.0.0">
@@ -60,7 +60,7 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="Priority">
    </PIN>
    </NODE>
-   <NODE systemname="sACN (Network Sender Internal)" filename="\\Mac\Home\Documents\vvvv\VVVV.Network.sACN.vl" nodename="sACN (Network Sender)" componentmode="Hidden" id="25">
+   <NODE systemname="sACN (Network Sender Multicast Internal)" filename="VVVV.Network.sACN.vl" nodename="sACN (Network Sender)" componentmode="Hidden" id="25">
    <BOUNDS type="Node" left="2655" top="1860" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Universe Number" visible="1">
